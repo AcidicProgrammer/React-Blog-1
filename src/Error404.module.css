@@ -1,0 +1,10 @@
+.fof_container {
+  text-align: center;
+  margin: 40px;
+}
+
+.fof_container h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+}

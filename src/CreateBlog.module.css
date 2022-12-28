@@ -1,0 +1,145 @@
+@media only screen and (max-width: 480px) {
+  .headerTitle {
+    font-size: 20px;
+    width: 153px;
+  }
+
+  .formContainer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .inputFields, .textareaField {
+    width: 100%;
+  }
+}
+
+.inputContainer {
+  margin-left: 85px;
+}
+
+.qlFormats {
+  background: #ffffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 92.5%;
+  border: 4px solid black;
+}
+
+.ql_Font span[data-label="Ubuntu"]::before {
+  font-family: "Ubuntu";
+}
+
+.qlEditor {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 92%;
+  border: 2px solid #00008f;
+  height: 500px;
+  border-top: none;
+  margin-bottom: 35px;
+}
+
+.headerTitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  /* background-color: rgb(221, 240, 255); */
+  padding: 5px;
+  width: 228px;
+  /* border-radius: 5%; */
+  /* color: rgb(0, 102, 255); */
+/*   border-bottom: 4px solid blue; */
+}
+
+.formContainer {
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -60px;
+}
+
+.inputFields {
+  width: 90%;
+  padding: 10px;
+  font-size: 17px;
+  outline: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.textareaField {
+  width: 90%;
+  padding: 10px;
+  font-size: 17px;
+  resize: none;
+  height: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  outline: none;
+}
+
+.inputFields, .textareaField {
+  border: 2px solid #00008f;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.publishBtn {
+  margin-bottom: 80px;
+  float: right;
+  float: left;
+  margin-right: 10px;
+  background-color: #0a69c2;
+  border: 0;
+  /* border-radius: 100px; */
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin-top: -10px;
+  margin-left: 36%;
+}
+
+.publishBtn:focus {
+  color: #ffffff;
+}
+
+.publishBtn:active {
+  background-color: #16437e;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+/* padding: 50px 30px 50px 80px;  top right bottom left; (moving clockwise) */
+
+.alert_message {
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  font-family: Roboto;
+  padding: 1px 10px 1px 10px;
+  margin: -25px 0 20px 0;
+  border-radius: 10px;
+/*   display: none; */
+}

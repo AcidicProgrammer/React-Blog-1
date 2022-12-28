@@ -1,0 +1,99 @@
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  color: blue;
+}
+
+.spanTitle {
+  color: red;
+  color: royalblue;
+  word-spacing: -40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 48.5px;
+  margin-left: 25px;
+}
+
+.links {
+  /* background-color: rgb(235, 235, 235); */
+  /* background-color: rgb(148, 207, 241); */
+  background-color: rgb(205, 237, 255);
+  padding: 10px;
+}
+
+.links a {
+  margin: 20px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* color: rgb(66, 66, 185); */
+  color: darkblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: rgb(21, 134, 226);
+  text-decoration: underline;
+}
+
+.searchInput {
+  float: right;
+  width: 40%;
+  font-size: 18.5px;
+  border: none;
+  border-bottom: 3px solid blue;
+  outline: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 33px;
+;
+}
+
+.searchBtn {
+  float: right;
+  margin-left: 15px;
+  margin-top: 20px;
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  /* border-radius: 100px; */
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.searchBtn:hover,
+.searchBtn:focus {
+  color: #ffffff;
+}
+
+.searchBtn:active {
+  background-color: #16437e;
+  color: rgb(255, 255, 255, 0.7);
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Mirza:wght@500&display=swap');
+
+.ql-font-arial {
+  font-family: "Arial";
+}
+
+.ql-font-comic-sans {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}  
+
+.ql-font-courier-new {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.ql-font-georgia {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ql-font-helvetica {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.ql-font-lucida {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ql-font-times-new-roman {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ql-font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ql-font-inconsolata {
+  font-family: 'Inconsolata', monospace;
+}
+
+.ql-font-mirza {
+  font-family: 'Mirza', cursive;
+}
+
+.ql-syntax {
+  background-color: #23241f;
+  color: #f8f8f2;
+  overflow: visible;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding-left: 16px;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 600px;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.ql-align-center {
+  text-align: center;
+}
+
+.ql-align-left {
+  text-align: left;
+}
+
+.ql-align-right {
+    text-align: right;
+}
+
+.ql-align-justify {
+  text-align: justify;
+}
+
+.ql-size-large {
+  font-size: 30px;
+}
+
+.ql-indent-2 {
+  margin-left: 40px;
+}

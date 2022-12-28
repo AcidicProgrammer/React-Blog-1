@@ -1,0 +1,71 @@
+.articleTitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.blog_container {
+  border: 2px solid #e8edfc;
+  padding: 30px;
+/*   background-color: #f0f2ff; */
+  background-color: #f2f2f8;
+}
+
+.blog_container {
+  line-height: 20px;
+}
+
+.articleSubtitle, .articleSummaryTitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+br {
+  margin-top: -100px;;
+}
+
+.editBtn {
+  float: right;
+  background-color: #0a66c2;
+  border: 0;
+  /* border-radius: 100px; */
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.editBtn:hover,
+.editBtn:focus {
+  color: #ffffff;
+}
+
+.editBtn:active {
+  background-color: #16437e;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.display_linebreak {
+  white-space: pre-line;
+}
+
+.articleSummaryTitle {
+  background-color: #c6c6cd;  
+  border: 2px solid navy;
+  padding: 10px;
+}
